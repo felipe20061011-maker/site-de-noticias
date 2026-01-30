@@ -1,192 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Notícias</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Site de Notícias</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-
 <header>
+  <div class="logo">
+    <h1>NOTICIAS</h1>
+  </div>
 
-    <div>
-        <h1>NOTICIAS</h1>
-    </div>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Filmes</a>
+    <a href="#">Atualidades</a>
+    <a href="#">Tecnologia</a>
+    <a href="#">Saúde</a>
+  </nav>
 
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Filmes</a>
-        <a href="#">Atualidades</a>
-        <a href="#">Tecnologia</a>
-        <a href="#">Saúde</a>
-    </nav>
-
-    
-    <div>
-        <img src="assets/icone-busca.png" alt="Ícone de busca">
-        <img src="assets/icone-perfil.png" alt="Ícone de perfil">
-    </div>
-
+  <div class="header-icons">
+    <img src="assets/icone-busca.png">
+    <img src="assets/icone-perfil.png">
+  </div>
 </header>
 
-<hr>
-
-
 <main>
+  <div class="layout">
 
-    
-    <section>
+    <!-- COLUNA ESQUERDA -->
+    <section class="coluna-esquerda">
+      <h2>COPA DO MUNDO DE 2026 PROMETE SER A MAIOR DA HISTÓRIA</h2>
 
-        <article>
-            <h2 class="corverde">COPA DO MUNDO DE 2026 PROMETE SER A MAIOR DA HISTÓRIA</h2>
+      <ul>
+        <li>Copa sediada por EUA, Canadá e México</li>
+        <li>Torneio terá 48 seleções participantes</li>
+        <li>Mais cidades-sede e infraestrutura moderna</li>
+      </ul>
 
-            <ul>
-                <li>Copa sediada por EUA, Canadá e México</li>
-                <li>Torneio terá 48 seleções participantes</li>
-                <li>Mais cidades-sede e infraestrutura moderna</li>
-            </ul>
-        </article>
+      <div class="noticias-grid">
+        <div class="noticia">
+        <img src="assets/image%202%20.png">
+          <h4>Taça da Copa</h4>
+          <p>Símbolo do maior título do futebol</p>
+        </div>
 
+        <div class="noticia">
+        <img src="assets/image%201.png">
+          <h4>Seleção Brasileira</h4>
+          <p>Seleção chega forte para 2026</p>
+        </div>
+
+        <div class="noticia">
+          <img src="assets/image3.png">
+          <h4>Neymar Jr.</h4>
+          <p>Possível última copa do craque</p>
+        </div>
+      </div>
+
+      <div class="noticias-grid secundaria">
+        <div class="noticia">
+         <img src="assets/image%2010.png">
+          <h4>Segue a preparação pra Copa</h4>
+          <p>Próximo adversário é a França</p>
+        </div>
+
+        <div class="noticia">
+         <img src="assets/image%2011.png">
+          <h4>Estêvão</h4>
+          <p>Garoto brilha em amistosos</p>
+        </div>
+
+        <div class="noticia">
+         <img src="assets/image%2012.png">
+          <h4>Treinador da Seleção</h4>
+          <p>Ancelotti confiante para 2026</p>
+        </div>
+      </div>
     </section>
 
-    <hr>
+    <!-- COLUNA MEIO -->
+    <section class="coluna-meio">
+      <h3>ÚLTIMAS NOTÍCIAS</h3>
 
-    
-    <section>
+      <div class="ultima-noticia">
+          <img src="assets/image%2013.png">
+        <div>
+          <h4>Paquetá no Flamengo?</h4>
+          <p>West Ham aceita negociar Lucas Paquetá com o Flamengo</p>
+        </div>
+      </div>
 
-        <article>
-            <img src="assets/image 2 .png"">
-            <h3 class="corverde">Taça da Copa</h3>
-            <p>Símbolo do maior título do futebol</p>
-        </article>
+      <div class="ultima-noticia">
+          <img src="assets/image%2014.png">
+        <div>
+          <h4>Júlio Casares</h4>
+          <p>Aliados sugerem renúncia antes do impeachment</p>
+        </div>
+      </div>
 
-        <article>
-            <img src="assets/image 1.png"">
-            <h3 class="corverde">Seleção Brasileira</h3>
-            <p>Seleção chega forte para 2026</p>
-        </article>
+      <div class="ultima-noticia">
+          <img src="assets/image%2028.png">
+        <div>
+          <h4>De volta às vitórias</h4>
+          <p>Real Madrid vence o Levante e ameniza a crise</p>
+        </div>
+      </div>
 
-        <article>
-            <img src="assets/image3.png" alt="image3">
-            <h3 class="corverde">Neymar Jr.</h3>
-            <p>Possível última copa do craque</p>
-        </article>
-
+      <button class="btn-verde">VEJA MAIS</button>
     </section>
 
-    
+    <!-- COLUNA DIREITA -->
+    <section class="coluna-direita">
+      <div class="tabela">
+        <h4>Rodada 2</h4>
+        <p class="titulo-verde">Campeonato Paulista 2026</p>
 
-    
-    <section>
-
-        <article>
-            <img src="assets/image 10.png" alt="">
-            <h4 class="corverde">Segue a preparação pra Copa</h4>
-            <p>Próximo adversário é a França</p>
-        </article>
-
-        <article>
-            <img src="assets/image 11.png"">
-            <h4 class="corverde">Estêvão</h4>
-            <p>Garoto brilha em amistosos e se aproxima da Copa</p>
-        </article>
-
-        <article>
-            <img src="assets/image 12.png"">
-            <h4 class="corverde">Treinador da Seleção</h4>
-            <p>Ancelotti se diz confiante para a Copa de 2026</p>
-        </article>
-
-    </section>
-
-    
-
-    
-    <section>
-
-        <h2>ÚLTIMAS NOTÍCIAS</h2>
-
-        <article>
-            <img src="assets/image 13.png"">
-            <h4 class="corverde">Paquetá no Flamengo?</h4>
-            <p>West Ham aceita negociar Lucas Paquetá</p>
-        </article>
-
-        <article>
-            <img src="assets/image 14.png"">
-            <h4 class="corverde">Júlio Casares</h4>
-            <p>Aliados sugerem renúncia antes do impeachment</p>
-        </article>
-
-        <article>
-            <img src="assets/image 28.png"">
-            <h4 class="corverde">De volta às vitórias</h4>
-            <p>Real Madrid vence e afasta crise</p>
-        </article>
-
-        <button class="corverde">Veja mais</button>
-
-    </section>
-
-    <hr>
-
-    
-    <section>
-
-        <h2>Campeonato Paulista 2026</h2>
-        <h3>Rodada 2</h3>
-
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Posição</th>
-                    <th>Time</th>
-                    <th>Pontos</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Palmeiras</td>
-                    <td>6</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Portuguesa</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Velo Clube</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>São Bernardo</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Corinthians</td>
-                    <td>3</td>
-                </tr>
-            </tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Classificação</th>
+              <th>P</th>
+              <th>Últ. Jogos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 PAL</td>
+              <td>6</td>
+              <td>
+                <ul class="jogos">
+                  <li class="bola verde"></li>
+                  <li class="bola verde"></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>2 PRI</td>
+              <td>4</td>
+              <td>
+                <ul class="jogos">
+                  <li class="bola verde"></li>
+                  <li class="bola vermelha"></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>3 VEL</td>
+              <td>4</td>
+              <td>
+                <ul class="jogos">
+                  <li class="bola verde"></li>
+                  <li class="bola vermelha"></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>4 SDB</td>
+              <td>3</td>
+              <td>
+                <ul class="jogos">
+                  <li class="bola verde"></li>
+                  <li class="bola vermelha"></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>5 COR</td>
+              <td>3</td>
+              <td>
+                <ul class="jogos">
+                  <li class="bola verde"></li>
+                  <li class="bola vermelha"></li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
         </table>
 
+        <div class="jogo">
+          arena barueri · 14/01 · 19:30<br>
+          <strong>palmeiras 1 x 0 santos</strong><br>
+          <a href="#">SAIBA COMO FOI</a>
+        </div>
+
+        <div class="jogo">
+          cícero de souza marques · 15/01 · 19:30<br>
+          <strong>bragantino 3 x 0 corinthians</strong><br>
+          <a href="#">SAIBA COMO FOI</a>
+        </div>
+
+        <div class="jogo">
+          morumbis · 15/01 · 21:45<br>
+          <strong>são paulo 1 x 0 são bernardo</strong><br>
+          <a href="#">SAIBA COMO FOI</a>
+        </div>
+      </div>
     </section>
 
+    
+  </div>
 </main>
 
-<hr>
-
-
 <footer>
-<p>desenvolvido por felipe</p>
-    
+  Desenvolvido por Felipe
+</footer>
 
 </body>
 </html>
